@@ -14,8 +14,8 @@ $(document).ready(function() {
   var losses = 0;
 
   // Append values to 'number to reach' and 'score'
-  $("#number_to_reach").append(number_to_reach);
-  $("#score").append(score);
+  $("#number_to_reach").text("Number to Reach: " + number_to_reach);
+  $("#score").text("Your total score is: " + score);
 
   // Add 'crystal values' to HTML elements
   $("#crystal_1").value = crystal_1;
@@ -24,8 +24,8 @@ $(document).ready(function() {
   $("#crystal_4").value = crystal_4;
 
   // Append wins/losses
-  $("#wins").append(wins);
-  $("#losses").append(losses);
+  $("#wins").text("Wins: " + wins);
+  $("#losses").text("Loses: " + losses);
 
   function reset_game() {
     //   Calculate 'Number to Reach' and 4 Crystal Values

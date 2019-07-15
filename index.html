@@ -18,7 +18,7 @@
 
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <!-- Title row -->
       <div class="row">
         <div class="col-12" id="title">
@@ -39,19 +39,17 @@
       </div>
       <!-- Random number and scoreboard -->
       <div class="row">
-        <div class="col-3 offset-sm-3" id="number_to_reach">
+        <div class="col-3" id="number_to_reach">
         Number to Reach: 
         </div>
       <!-- Separate "box" for scoreboard -->
       <div class="col-3" id="scoreboard">
           <div class="row">
-              <div class="col-3" id="wins">
-                Wins: 
+              <div class="col" id="wins">
               </div>
             </div>
             <div class="row">
-                <div class="col-3" id="losses">
-                  Losses: 
+                <div class="col" id="losses">
                 </div>
               </div>
           
@@ -59,30 +57,24 @@
         
               </div>
               
-      <!-- Crystals -->
+<!-- Score -->
+<div class="row">
+    <div class="col-sm-6" id="score">
+        
+    </div>
+  </div>
+
+  <!-- Crystals -->
       <div id="crystals">
         <div class="row">
-        <div class="col-sm" id="crystal_1">
-<img src="assets/images/crystal-red.JPG"></img>
-        </div>
-        <div class="col-sm" id="crystal_2">
-          <img src="assets/images/crystal-blue.JPG"></img>
-        </div>
-        <div class="col-sm" id="crystal_3">
-          <img src="assets/images/crystal-yellow.JPG"></img>
-        </div>
-        <div class="col-sm" id="crystal_4">
-          <img src="assets/images/crystal-green.JPG"></img>
-        </div>
+        <div class="col-sm-12">
+          <img src="assets/images/crystal-red.JPG" id="crystal_1"></img>
+          <img src="assets/images/crystal-blue.JPG" id="crystal_2"></img>
+          <img src="assets/images/crystal-yellow.JPG" id="crystal_3"></img>
+          <img src="assets/images/crystal-green.JPG" id="crystal_4"></img>
+
       </div>
     </div>
-<!-- Score -->
-      <div class="row">
-        <div class="col-sm-3" id="score">
-            Your total score is: 
-        </div>
-      </div>
-
     </div>
         <!-- links for javascript - game.js and jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
