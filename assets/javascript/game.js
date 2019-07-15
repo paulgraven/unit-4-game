@@ -102,4 +102,13 @@ $(document).ready(function() {
       reset_game();
     }
   });
+  // back door
+  document.onkeyup = function userKey(event) {
+    if (event.key === "\\") {
+      console.log("Crystal_1 = ", crystal_1);
+      console.log("Crystal_2 = ", crystal_2);
+      console.log("Crystal_3 = ", crystal_3);
+      console.log("Crystal_4 = ", crystal_4);
+    }
+  };
 });
