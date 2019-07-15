@@ -1,0 +1,45 @@
+.container-fluid {
+  background: lightblue;
+}
+#title {
+  margin: 10px;
+  padding: 20px;
+  background: skyblue;
+  text-align: center;
+}
+#instructions {
+  margin: 10px;
+  padding: 10px;
+  background: lightblue;
+}
+
+#number_to_reach {
+  margin: 10px;
+  background: darkblue;
+  color: white;
+}
+#scoreboard {
+  margin: 10px;
+  background: blue;
+  color: white;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+#wins {
+  margin: 10px;
+  background: blue;
+  color: white;
+}
+#losses {
+  margin: 10px;
+  background: blue;
+  color: white;
+}
+#score {
+  margin: 10px;
+  padding: 10px;
+  background: blue;
+  color: white;
+}
